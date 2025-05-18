@@ -1,0 +1,50 @@
+h2{
+    font-size: x-large;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+     background: url('./assets/images/background-pattern-desktop.svg');
+}
+#one{
+      background-color: rgb(239, 233, 233);
+      border-radius: 10px;
+      padding: 1rem;
+      width: 400px;
+}
+#one h2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.line{
+    border-width: 0.0001px;
+    font-weight: 1px;
+}
+
+.header-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+
+.header-1 .content{
+    display: none;
+    color: #898888; 
+}
+
+.header-1 .active{
+    display: block;
+}
+
+.header-p img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
